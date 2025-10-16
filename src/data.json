@@ -1,0 +1,148 @@
+{
+  "servicios_idiomas": [
+    {
+      "id": 1,
+      "nombre": "Centro de Lenguas Originarias Andinas",
+      "fundacion": 2010,
+      "director": "Rosa Huamán",
+      "idiomas_ofrecidos": ["Quechua"],
+      "modalidad": "Virtual",
+      "niveles": ["Básico", "Intermedio"],
+      "duracion_ciclo": "10 semanas",
+      "ciudad_sede": "Cusco",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJgFdoYmicheWI8zkaTqIflTX4p9UqvgMpyw&s"
+    },
+    {
+      "id": 2,
+      "nombre": "Instituto Aimara Puno",
+      "fundacion": 2008,
+      "director": "Luis Mamani",
+      "idiomas_ofrecidos": ["Aymara"],
+      "modalidad": "Presencial",
+      "niveles": ["Inicial", "Avanzado"],
+      "duracion_ciclo": "12 semanas",
+      "ciudad_sede": "Puno",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKOTcgjJd3_f7WiyD08fGCqaX7_9k-bLfL1Q&s"
+    },
+    {
+      "id": 3,
+      "nombre": "Runasimi Wasi",
+      "fundacion": 2015,
+      "director": "Maritza Quispe",
+      "idiomas_ofrecidos": ["Quechua"],
+      "modalidad": "Mixto",
+      "niveles": ["Básico", "Conversación"],
+      "duracion_ciclo": "8 semanas",
+      "ciudad_sede": "Ayacucho",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxew6fpdF3Sr_xlSsjVaF9jBBpzt73PhRlJQ&s"
+    },
+    {
+      "id": 4,
+      "nombre": "Escuela de Idiomas Indígenas",
+      "fundacion": 2012,
+      "director": "Jorge Calla",
+      "idiomas_ofrecidos": ["Aymara", "Quechua"],
+      "modalidad": "Virtual",
+      "niveles": ["Inicial", "Intermedio"],
+      "duracion_ciclo": "11 semanas",
+      "ciudad_sede": "Arequipa",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE_esL71Ml9x3yQpvCa9cx872H3C-4xgfMhg&s"
+    },
+    {
+      "id": 5,
+      "nombre": "Yachay Wasi Lingüístico",
+      "fundacion": 2017,
+      "director": "Lucía Túpac",
+      "idiomas_ofrecidos": ["Quechua del Sur"],
+      "modalidad": "Presencial",
+      "niveles": ["A1", "A2", "B1"],
+      "duracion_ciclo": "14 semanas",
+      "ciudad_sede": "Cusco",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2uDRac9G8sQyVg-rshQ0UU3xPuPat27iJmA&s"
+    },
+    {
+      "id": 6,
+      "nombre": "Lenguas Vivas de los Andes",
+      "fundacion": 2019,
+      "director": "Diego Condori",
+      "idiomas_ofrecidos": ["Quechua Central"],
+      "modalidad": "Virtual",
+      "niveles": ["Introductorio", "Conversacional"],
+      "duracion_ciclo": "9 semanas",
+      "ciudad_sede": "Huancayo",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9QJhRD3MRgjttBYWy-0LvIpncn3q9y-7KCg&s"
+    },
+    {
+      "id": 7,
+      "nombre": "Instituto de Idiomas Amazónicos",
+      "fundacion": 2013,
+      "director": "Milagros Rengifo",
+      "idiomas_ofrecidos": ["Asháninka"],
+      "modalidad": "Mixto",
+      "niveles": ["Básico", "Intermedio"],
+      "duracion_ciclo": "12 semanas",
+      "ciudad_sede": "Ucayali",
+      "imagen": "https://s.france24.com/media/display/cbb598a4-f2e6-11e8-bb99-005056a964fe/w:1280/p:16x9/amazonia_brasilea.jpg"
+    },
+    {
+      "id": 8,
+      "nombre": "Centro Cultural Shipibo",
+      "fundacion": 2011,
+      "director": "Carlos Yahuarcani",
+      "idiomas_ofrecidos": ["Shipibo-Conibo"],
+      "modalidad": "Virtual",
+      "niveles": ["A1", "A2"],
+      "duracion_ciclo": "10 semanas",
+      "ciudad_sede": "Loreto",
+      "imagen": "https://www.servindi.org/sites/default/files/editor/imagenes/comunidad-nativa-boca-capirushari.jpg"
+    },
+    {
+      "id": 9,
+      "nombre": "Programa Lingüístico Wampis",
+      "fundacion": 2021,
+      "director": "Lidia Sharian",
+      "idiomas_ofrecidos": ["Wampis"],
+      "modalidad": "Virtual",
+      "niveles": ["Básico"],
+      "duracion_ciclo": "6 semanas",
+      "ciudad_sede": "Amazonas",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb9valQR8WaV63xFdiM_x-TJvsSf5_HbnwPA&s"
+    },
+    {
+      "id": 10,
+      "nombre": "Escuela de Idiomas Awajún",
+      "fundacion": 2020,
+      "director": "Rocío Tuntui",
+      "idiomas_ofrecidos": ["Awajún"],
+      "modalidad": "Presencial",
+      "niveles": ["Inicial", "Medio"],
+      "duracion_ciclo": "10 semanas",
+      "ciudad_sede": "Bagua",
+      "imagen": "https://i0.wp.com/www.actualidadambiental.pe/wp-content/uploads/2019/12/Entregadet%C3%ADtuloscomunidadesnativasdiciembre2019.-Foto.SPDA-10.jpg?fit=800%2C533&ssl=1"
+    },
+    {
+      "id": 11,
+      "nombre": "Centro Intercultural Kichwa",
+      "fundacion": 2016,
+      "director": "Víctor Gualinga",
+      "idiomas_ofrecidos": ["Quechua"],
+      "modalidad": "Mixto",
+      "niveles": ["A1", "B1"],
+      "duracion_ciclo": "11 semanas",
+      "ciudad_sede": "San Martín",
+      "imagen": "https://ciorg.imgix.net/images/default-source/default-album/ci_37031948?&auto=compress&auto=format&fit=crop&w=1440&h=900"
+    },
+    {
+      "id": 12,
+      "nombre": "Escuela de Lenguas Originarias Moche",
+      "fundacion": 2023,
+      "director": "Elena Chayña",
+      "idiomas_ofrecidos": ["Aymara"],
+      "modalidad": "Virtual",
+      "niveles": ["Introductorio"],
+      "duracion_ciclo": "5 semanas",
+      "ciudad_sede": "La Libertad",
+      "imagen": "https://agraria.pe/imgs/a/lx/tres-comunidades-nativas-de-san-martin-y-loreto-conservan-ma-40525.jpg"
+    }
+  ]
+}
