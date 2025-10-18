@@ -1,35 +1,28 @@
-import datos from './data.json'; // ⚠️ Asumo que 'datos' es el nombre correcto de tu JSON.
+import datos from './data.json';
 import { useState } from 'react';
 
 function Cursos() {
     
     const [idioma, setIdioma] = useState('Todos');
 
-    // 1. LÓGICA DE FILTRADO CON OPERADOR TERNARIO
-    // ------------------------------------------------------------------
+   
     const cursosFiltrados = datos.servicios_idiomas.filter(curso => (
-        // Usa el operador ternario para decidir si incluir el curso
+       
         idioma === 'Todos' 
-            ? true // Si es 'Todos', incluye el curso
-            : curso.idiomas_ofrecidos.includes(idioma) // Si no, comprueba si el array lo contiene
+            ? true
+            : curso.idiomas_ofrecidos.includes(idioma) 
     ));
-    // ------------------------------------------------------------------
-
-    
-    // 2. OBTENCIÓN DE IDIOMAS ÚNICOS CON new Set() Y map() (sin flatMap)
-    // ------------------------------------------------------------------
-    // A. Usamos 'map' y 'reduce' para aplanar manualmente el array de idiomas (sustituyendo flatMap)
+   
     const todosLosIdiomasAnidados = datos.servicios_idiomas.map(c => c.idiomas_ofrecidos);
     const todosLosIdiomas = todosLosIdiomasAnidados.reduce((acc, current) => acc.concat(current), []);
     
-    // B. Usamos new Set() para obtener los únicos, y luego agregamos 'Todos' y ordenamos
+    
     const idiomasUnicos = ['Todos', ...new Set(todosLosIdiomas)].sort();
-    // ------------------------------------------------------------------
-
+    
     return (
         <>
             <div className='relative w-full h-96'>
-                {/* ... (Cabecera y Título Flotante) ... */}
+                
                 <img 
                     className='w-full h-full object-cover' 
                     src="https://images.pexels.com/photos/14381689/pexels-photo-14381689.jpeg?cs=srgb&dl=pexels-solyartphotos-14381689.jpg&fm=jpg" 
