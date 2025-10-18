@@ -1,5 +1,5 @@
 function Reseñas({ usuario, fecha, comentario, valoracion }) {
-    // Definimos el color principal que es similar al fondo de las tarjetas de curso (pink-500)
+    
     const colorPrimario = "bg-pink-500";
     const colorFondoClaro = "bg-gray-50";
 
